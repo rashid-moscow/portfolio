@@ -1,0 +1,146 @@
+div {
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header {
+  background: url('https://publicdomainarchive.com/wp-content/uploads/2014/03/public-domain-images-archive-high-quality-resolution-free-download-splitshire-0004-1000x666.jpg') no-repeat;
+  background-size: 100%;
+  height: 600px;
+}
+
+.header .header-blue {
+  background-color: #0040FF;
+}
+
+.logo {
+  float: left;
+  width: 250px;
+  margin-bottom: -10px;
+}
+
+.logo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px 0 0 100px;
+}
+.navbar {
+  float: left;
+  width: 800px;
+  text-align: right;
+}
+
+.navbar nav {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  padding:15px 30px 25px;
+  margin-bottom: -20px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 18px;
+}
+
+i {
+    border: solid #D8D8D8;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.arrow {
+  margin-bottom: 5px;
+  margin-left: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.nav-link:hover .arrow {
+  margin-bottom: 0;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.entrance {
+  float: right;
+  width: 270px;
+}
+
+.entrance a {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.entrance .score {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px 15px;
+}
+
+.entrance .score:hover {
+  background-color: #D8D8D8;
+}
+
+hr {
+  clear: both;
+  display: block;
+  margin-top: -10px;
+}
+
+.header-head {
+  height: 260px;
+}
+
+.sub-menu {
+  position: absolute;
+  text-align: left;
+  width: 1290px;
+  height: 180px;
+}
+
+.sub-menu li {
+  text-align: left;
+  display: inline-block;
+}
+
+.sub-menu span {
+  font-size: 19px;
+}
+
+.sub-menu li a:hover {
+  text-decoration: underline;
+}
+
+.sub-menu-private {
+  right: 9px;
+}
+
+.sub-menu-private li {
+  padding: 50px 100px 0;
+}
+
+.sub-menu-private li:nth-child(3),
+.sub-menu-private li:last-child {
+  padding-left: 80px;
+}
+
+.sub-menu-corporation {
+  right: 18px;
+}
+
+.sub-menu-corporation li {
+  margin: 50px 190px 0;
+}
